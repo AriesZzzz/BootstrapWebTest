@@ -1,0 +1,53 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+// bootstrap自定义按钮
+.btn-itcast {
+    color: #ffffff;
+    background-color: #e92322;
+    border-color: #db3b43;
+  }
+  
+  .btn-itcast:hover,
+  .btn-itcast:focus,
+  .btn-itcast:active,
+  .btn-itcast.active,
+  .open .dropdown-toggle.btn-itcast {
+    color: #ffffff;
+    background-color: #e92322;
+    border-color: #db3b43;
+  }
+  
+  .btn-itcast:active,
+  .btn-itcast.active,
+  .open .dropdown-toggle.btn-itcast {
+    background-image: none;
+  }
+  
+  .btn-itcast.disabled,
+  .btn-itcast[disabled],
+  fieldset[disabled] .btn-itcast,
+  .btn-itcast.disabled:hover,
+  .btn-itcast[disabled]:hover,
+  fieldset[disabled] .btn-itcast:hover,
+  .btn-itcast.disabled:focus,
+  .btn-itcast[disabled]:focus,
+  fieldset[disabled] .btn-itcast:focus,
+  .btn-itcast.disabled:active,
+  .btn-itcast[disabled]:active,
+  fieldset[disabled] .btn-itcast:active,
+  .btn-itcast.disabled.active,
+  .btn-itcast[disabled].active,
+  fieldset[disabled] .btn-itcast.active {
+    background-color: #e92322;
+    border-color: #db3b43;
+  }
+  
+  .btn-itcast .badge {
+    color: #e92322;
+    background-color: #ffffff;
+  }

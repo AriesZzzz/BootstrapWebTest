@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "itcast";
+  src: url("../font/MiFie-Web-Font.eot") format("embedded-opentype"), url("../font/MiFie-Web-Font.svg") format("svg"),
+    url("../font/MiFie-Web-Font.ttf") format("truetype"), url("../font/MiFie-Web-Font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../icomoon-fonts/fonts/icomoon.eot") format("embedded-opentype"),
+    url("../icomoon-fonts/fonts/icomoon.svg") format("svg"),
+    url("../icomoon-fonts/fonts/icomoon.ttf") format("truetype"),
+    url("../icomoon-fonts/fonts/icomoon.woff") format("woff");
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: itcast;
+  font-style: normal;
+}
+.icon-mobilephone::before {
+  content: "\e908";
+  font-size: 13px;
+}
+.icon-telephone::before {
+  content: "\e909";
+  font-size: 15px;
+}
+.icon-uniE907::before {
+  content: "\e907";
+  font-size: 32px;
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+.ico-logo::before {
+  font-family: icomoon;
+  content: "\e900";
+  color: #e92322;
+  font-size: 32px;
+}
+.ico-weijinsuo::before {
+  font-family: icomoon;
+  content: "\e901";
+  font-size: 22px;
+  color: #333;
+}
+

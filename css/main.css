@@ -1,0 +1,193 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+  box-sizing: border-box;
+}
+
+.btn-itcast {
+  color: #ffffff;
+  background-color: #e92322;
+  border-color: #db3b43;
+}
+
+.btn-itcast:hover,
+.btn-itcast:focus,
+.btn-itcast:active,
+.btn-itcast.active,
+.open .dropdown-toggle.btn-itcast {
+  color: #ffffff;
+  background-color: #e92322;
+  border-color: #db3b43;
+}
+
+.btn-itcast:active,
+.btn-itcast.active,
+.open .dropdown-toggle.btn-itcast {
+  background-image: none;
+}
+
+.btn-itcast.disabled,
+.btn-itcast[disabled],
+fieldset[disabled] .btn-itcast,
+.btn-itcast.disabled:hover,
+.btn-itcast[disabled]:hover,
+fieldset[disabled] .btn-itcast:hover,
+.btn-itcast.disabled:focus,
+.btn-itcast[disabled]:focus,
+fieldset[disabled] .btn-itcast:focus,
+.btn-itcast.disabled:active,
+.btn-itcast[disabled]:active,
+fieldset[disabled] .btn-itcast:active,
+.btn-itcast.disabled.active,
+.btn-itcast[disabled].active,
+fieldset[disabled] .btn-itcast.active {
+  background-color: #e92322;
+  border-color: #db3b43;
+}
+
+.btn-itcast .badge {
+  color: #e92322;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "itcast";
+  src: url("../font/MiFie-Web-Font.eot") format("embedded-opentype"), url("../font/MiFie-Web-Font.svg") format("svg"), url("../font/MiFie-Web-Font.ttf") format("truetype"), url("../font/MiFie-Web-Font.woff") format("woff");
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../icomoon-fonts/fonts/icomoon.eot") format("embedded-opentype"), url("../icomoon-fonts/fonts/icomoon.svg") format("svg"), url("../icomoon-fonts/fonts/icomoon.ttf") format("truetype"), url("../icomoon-fonts/fonts/icomoon.woff") format("woff");
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: itcast;
+  font-style: normal;
+}
+
+.icon-mobilephone::before {
+  content: "\e908";
+  font-size: 13px;
+}
+
+.icon-telephone::before {
+  content: "\e909";
+  font-size: 15px;
+}
+
+.icon-uniE907::before {
+  content: "\e907";
+  font-size: 32px;
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
+.ico-logo::before {
+  font-family: icomoon;
+  content: "\e900";
+  color: #e92322;
+  font-size: 32px;
+}
+
+.ico-weijinsuo::before {
+  font-family: icomoon;
+  content: "\e901";
+  font-size: 22px;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+}
+header > .topbar {
+  height: 40px;
+  border-bottom: 1px solid #c0c0c0;
+  line-height: 40px;
+}
+header > .topbar > .container {
+  height: 40px;
+  border-bottom: 1px solid #c0c0c0;
+}
+header > .topbar > .container > .row > div + div {
+  height: 40px;
+  border-left: 1px solid #c0c0c0;
+}
+header > .topbar > .container > .row > .col-md-2 {
+  z-index: 1001;
+}
+header > .topbar > .container > .row > .col-md-2:hover img {
+  display: block;
+}
+header > .navbar {
+  margin-bottom: 0;
+}
+header > .navbar > .container > .nav > .active1 {
+  background-color: transparent;
+  border-bottom: 2px solid #e92322;
+}
+header > .navbar > .container > .nav li:hover {
+  border-bottom: 2px solid #e92322;
+}
+
+.mobile-link {
+  font-size: 12px;
+  color: #888;
+}
+.mobile-link:hover {
+  text-decoration: none;
+}
+.mobile-link img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.carousel-inner > .item {
+  height: 400px;
+}
+
+#special-part {
+  padding: 50px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+#special-part > .container > .row a {
+  text-decoration: none;
+}
+#special-part > .container > .row div {
+  height: 50px;
+}
+
+#ljyy {
+  border-bottom: 1px solid #c0c0c0;
+  padding: 20px 0;
+}
+#ljyy > .container > p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#ljyy > .container > .pull-left span, #ljyy > .container > .pull-left a {
+  color: #e92322;
+}
+#ljyy > .container > .pull-left a {
+  border-bottom: 1px dashed #e92322;
+}
+#ljyy > .container > .pull-left a:hover {
+  text-decoration: none;
+}
+
+#products {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+}
+#products .nav-tabs li.active > a {
+  background-color: #f0f0f0;
+  border: none;
+  border-bottom: 2px solid #e92322;
+}
+
+/*# sourceMappingURL=main.css.map */
