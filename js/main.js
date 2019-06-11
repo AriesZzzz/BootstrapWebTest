@@ -5,5 +5,6 @@
  * @Last Modified by:   iceStone
  * @Last Modified time: 2015-12-12 11:01:38
  */
-
-'use strict';
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+})

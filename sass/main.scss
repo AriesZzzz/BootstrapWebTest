@@ -167,9 +167,31 @@ header {
     + .panel-collapse > .panel-body {
       border-top-color: #ddd;
     }
-    .badge {
-      color: #f5f5f5;
-      background-color: #333;
+    .tooltips {
+      position: absolute;
+      width: 74%;
+      text-align: center;
+      top: 26px;
+      .badge {
+       display: inline-block;
+       width: 20px;
+       height: 20px;
+       border-width: 1px;
+       border-style: solid;
+       border-radius: 0;
+       background-color: transparent;
+       padding: 2px;
+        
+      }
+      .badge-one {
+        color: #e92322;
+        border-color: #e92322;
+      }
+      .badge-two {
+        color: #399;
+        border-color: #399;
+      }
+
     }
   }
   > .panel-body {
